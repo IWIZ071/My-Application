@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         val keysAndValues = CustomKeysAndValues.Builder()
             .putString("string key", "Test")
             .putString("string key 2", "string  value 2")
