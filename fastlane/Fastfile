@@ -43,7 +43,7 @@ platform :android do
           app: "1:412390502424:android:8a5567a22b363393a6936d",
           release_notes_file: "D:\ProjectFiles\MyApplication\releasenotes.txt",
           # groups_file: "FirebaseAppDistributionConfig/groups.txt",
-	  testers: "dnyaneshwar1926@gmail.com, dnyaneshwar@iwizardsolutions.com"
+	      testers: "dnyaneshwar1926@gmail.com, dnyaneshwar@iwizardsolutions.com",
           firebase_cli_token: "1//0gXLTibjs9h31CgYIARAAGBASNwF-L9IrKKYHiklqsBTxt8rl9_q0D4OW4XqNJjuiaGzqX1Eby_IZvBqrIkdNoRhx-Ak6rqLDFFk"
       )
   end
