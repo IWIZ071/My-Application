@@ -45,7 +45,7 @@ jobs:
         with:
           appId: ${{secrets.FIREBASE_APP_ID}}
           token: ${{secrets.FIREBASE_CLI_TOKEN}}
-          groups: internal-team
+          groups: debug
           file: app/build/outputs/apk/release/app-release.apk
 
 
