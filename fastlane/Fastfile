@@ -34,6 +34,7 @@ platform :android do
   lane :deploy do
     gradle(task: "clean assembleRelease")
     upload_to_play_store
+  end
 
   desc "Lane for distributing app using Firebase App Distributions"
   lane :distribute do
