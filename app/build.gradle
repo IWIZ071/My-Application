@@ -37,8 +37,8 @@ android {
             firebaseAppDistribution {
                 artifactType="APK"
                 appId = "1:412390502424:android:8a5567a22b363393a6936d"
-                serviceCredentialsFile = "D:\\Project Files\\My Application\\my-application-314812-1fe8a5c771ef.json"
-                releaseNotesFile = "D:\\Project Files\\My Application\\releasenotes.txt"
+                serviceCredentialsFile = "D:\\ProjectFiles\\MyApplication\\my-application-314812-1fe8a5c771ef.json"
+                releaseNotesFile = "D:\\ProjectFiles\\MyApplication\\releasenotes.txt"
                 testers = "dnyaneshwar1926@gmail.com, dnyaneshwar@iwizardsolutions.com"
             }
         }
