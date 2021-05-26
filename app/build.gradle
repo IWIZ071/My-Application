@@ -23,7 +23,7 @@ android {
         config {
             keyAlias 'alias'
             keyPassword 'password'
-            storeFile file('D:\\Project Files\\My Application\\myapplication.jks')
+            storeFile file('D:\\ProjectFiles\\MyApplication\\myapplication.jks')
             storePassword 'password'
         }
     }

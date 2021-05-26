@@ -199,7 +199,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  fastlane
+  fastlane (~> 2.184)
 
 BUNDLED WITH
-   2.2.15
+   2.2.18
