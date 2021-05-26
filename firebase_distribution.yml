@@ -33,12 +33,12 @@ jobs:
         id: apkRelease
         run: ./gradlew :app:bundleRelease
 
-      - name: Upload apk
-        id: uploadArtifact
-        uses: actions/upload-artifact@v1
-        with:
-          name: app
-          path: app/build/outputs/apk/release/app-release.apk
+#      - name: Upload apk
+#        id: uploadArtifact
+#        uses: actions/upload-artifact@v1
+#        with:
+#          name: app
+#          path: app/build/outputs/apk/release/app-release.apk
 
       - name: Upload to firebase distribution
         uses: wzieba/Firebase-Distribution-Github-Action@v1
