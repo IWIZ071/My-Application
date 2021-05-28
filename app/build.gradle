@@ -30,17 +30,17 @@ android {
 
     buildTypes {
         release {
-            signingConfig signingConfigs.config
+//            signingConfig signingConfigs.config
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
 
-            firebaseAppDistribution {
+            /*firebaseAppDistribution {
                 artifactType="APK"
                 appId = "1:445766552203:android:ee49dfb111e97151a8628e"
                 serviceCredentialsFile = "D:\\ProjectFiles\\MyApplication\\thermal-outlet-315009-a6ac5c04c501.json"
                 releaseNotesFile = "D:\\ProjectFiles\\MyApplication\\releasenotes.txt"
                 testers = "dnyaneshwar@iwizardsolutions.com"
-            }
+            }*/
         }
     }
     compileOptions {

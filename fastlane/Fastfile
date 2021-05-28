@@ -44,7 +44,7 @@ platform :android do
           app: "1:412390502424:android:8a5567a22b363393a6936d",
           release_notes: "Testing",
 	      testers: "dnyaneshwar@iwizardsolutions.com",
-          firebase_cli_token: "1//0gXLTibjs9h31CgYIARAAGBASNwF-L9IrKKYHiklqsBTxt8rl9_q0D4OW4XqNJjuiaGzqX1Eby_IZvBqrIkdNoRhx-Ak6rqLDFFk"
+          firebase_cli_token: "1//0gEJBEnHlV-CmCgYIARAAGBASNwF-L9IrfHHS63UA7IGMDIKhqxrKnc0mwmxLZbS91AvOFunC6wGcvtiVTxGBXhRRFUYPb8Hh8Bg"
       )
   end
 end
