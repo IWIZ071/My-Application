@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "412390502424",
-    "project_id": "fir-projects-7ebaa",
-    "storage_bucket": "fir-projects-7ebaa.appspot.com"
+    "project_number": "445766552203",
+    "project_id": "thermal-outlet-315009",
+    "storage_bucket": "thermal-outlet-315009.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:412390502424:android:8a5567a22b363393a6936d",
+        "mobilesdk_app_id": "1:445766552203:android:ee49dfb111e97151a8628e",
         "android_client_info": {
           "package_name": "com.example.myapplication"
         }
       },
       "oauth_client": [
         {
-          "client_id": "412390502424-hb4jglk5ircfongsod07js59cc69mkp0.apps.googleusercontent.com",
+          "client_id": "445766552203-78ioo95u1kg6qvnul3m6n3hpi6goqbn4.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBv5v7BigNM2R1zAyOJX-yozRscBPTtUHg"
+          "current_key": "AIzaSyDuEUY8a98xhTI2KJK-xihUIOmKY6ni-Ic"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "412390502424-hb4jglk5ircfongsod07js59cc69mkp0.apps.googleusercontent.com",
+              "client_id": "445766552203-78ioo95u1kg6qvnul3m6n3hpi6goqbn4.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

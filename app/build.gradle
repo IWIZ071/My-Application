@@ -19,28 +19,28 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
-    /*signingConfigs {
+    signingConfigs {
         config {
             keyAlias 'alias'
             keyPassword 'password'
             storeFile file('D:\\ProjectFiles\\MyApplication\\myapplication.jks')
             storePassword 'password'
         }
-    }*/
+    }
 
     buildTypes {
         release {
-//            signingConfig signingConfigs.config
+            signingConfig signingConfigs.config
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
 
-            /*firebaseAppDistribution {
+            firebaseAppDistribution {
                 artifactType="APK"
-                appId = "1:412390502424:android:8a5567a22b363393a6936d"
-                serviceCredentialsFile = "D:\\ProjectFiles\\MyApplication\\my-application-314812-1fe8a5c771ef.json"
+                appId = "1:445766552203:android:ee49dfb111e97151a8628e"
+                serviceCredentialsFile = "D:\\ProjectFiles\\MyApplication\\thermal-outlet-315009-a6ac5c04c501.json"
                 releaseNotesFile = "D:\\ProjectFiles\\MyApplication\\releasenotes.txt"
-                testers = "dnyaneshwar1926@gmail.com, dnyaneshwar@iwizardsolutions.com"
-            }*/
+                testers = "dnyaneshwar@iwizardsolutions.com"
+            }
         }
     }
     compileOptions {
